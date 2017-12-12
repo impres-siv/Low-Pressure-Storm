@@ -1,4 +1,6 @@
-// Casie is editing this! This file now belongs to low pressure storm!!!
+// Last Changes by: Casie
+// Team: Low Pressure Storm
+// Threat Level: Midnight
 
 
 // Quiz result options in a separate object for flexibility
@@ -20,11 +22,13 @@ var quizSteps = $('#quizzie .quiz-step'),
     totalScore = 0;
 
 // for each step in the quiz, add the selected answer value to the total score
-// if an answer has already been selected, subtract the previous value and update total score with the new selected answer value
+// if an answer has already been selected, subtract the previous value and
+// update total score with the new selected answer value
 // toggle a visual active state to show which option has been selected
 quizSteps.each(function () {
     var currentStep = $(this),
         ansOpts = currentStep.children('.quiz-answer');
+
     // for each option per step, add a click listener
     // apply active class and calculate the total score
     ansOpts.each(function () {

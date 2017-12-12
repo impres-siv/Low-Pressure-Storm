@@ -43,7 +43,7 @@ h1,h2,p {
     &.current {
       display: block;
     }
-    
+
     /* Step Questions and Answer Options */
     li {
         display: inline-block;
@@ -75,7 +75,7 @@ h1,h2,p {
         margin-right: 0;
     }
   }
-  
+
   /* Content */
   .question-wrap {
       display: block;
@@ -90,5 +90,6 @@ h1,h2,p {
       &:hover {
         background: DarkTurquoise;
       }
+
   }
 }
