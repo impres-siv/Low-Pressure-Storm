@@ -1,0 +1,160 @@
+{
+    "increments" : [
+        [0, 0.1],
+        [10, 1],
+        [200, 10],
+        [500 , 50],
+        [1000, 100],
+        [5000, 500],
+        [20000, 1000],
+        [50000, 5000],
+        [300000, 10000],
+        [500000, 50000]
+    ],
+
+    "rangeLimits" : [
+        1000,
+        2000,
+        4000,
+        6000,
+        8000,
+        10000,
+        20000,
+        40000,
+        60000,
+        80000,
+        100000,
+        200000,
+        400000,
+        600000,
+        800000,
+        1000000,
+        2000000,
+        4000000,
+        6000000,
+        8000000,
+        10000000,
+        20000000,
+        40000000,
+        60000000,
+        80000000,
+        100000000
+    ],
+
+    "sliders" : {
+        "age" : {
+            "min" : 21,
+            "max" : 80,
+            "minIncrement" : 1,
+            "handles" : [
+                {
+                    "value" : 30
+                },
+                {
+                    "value" : 65,
+                    "min" : 50
+                }
+            ]
+        },
+        "salary" : {
+            "min" : 20000,
+            "max" : 400000,
+            "handles" : [
+                {
+                    "value" : 30000
+                }
+            ]
+        },
+        "contributions" : {
+            "min" : 0,
+            "max" : 60000,
+            "minIncrement" : 50,
+            "handles" : [
+                {
+                    "value" : 0
+                }
+            ]
+        },
+        "savings" : {
+            "min" : 0,
+            "max" : 2000000,
+            "minIncrement" : 100,
+            "handles" : [
+                {
+                    "value" : 0
+                }
+            ]
+        },
+        "percentNeeded" : {
+            "min" : 60,
+            "max" : 110,
+            "minIncrement" : 1,
+            "handles" : [
+                {
+                    "value" : 85
+                }
+            ]
+        },
+        "roi" : {
+            "min" : 1,
+            "max" : 10,
+            "handles" : [
+                {
+                    "value" : 5.0
+                }
+            ]
+        },
+        "pension" : {
+            "min" : 0,
+            "max" : 100,
+            "minIncrement" : 1,
+            "handles" : [
+                {
+                    "value" : 0
+                }
+            ]
+        }
+    },
+    "modalDialogs" : {
+        "results": {
+            "buttonLabel": "click here",
+            "heading": "About your results",
+            "contentURL": "/web/angular/app/retirementincomecalculator/partials/about-your-results.html",
+            "id": "results-dialog"
+        },
+        "defaultIncomeReplacementRate": {
+            "buttonLabel": "Learn more",
+            "heading": "Default income replacement rate",
+            "contentURL": "/web/angular/app/retirementincomecalculator/partials/default-income-replacement-rate.html",
+            "id": "default-income-replacement-rate-dialog"
+        },
+        "socialSecurity": {
+            "buttonLabel": "Tell us about it",
+            "heading": "Your estimated Social Security benefit",
+            "contentURL": "/web/angular/app/retirementincomecalculator/partials/your-estimated-social-security-benefit.html",
+            "id": "social-security-dialog"
+        },
+        "pension": {
+            "buttonLabel": "Tell us about it",
+            "heading": "Tell us about your pension benefit",
+            "contentURL": "/web/angular/app/retirementincomecalculator/partials/tell-us-about-your-pension-benefit.html",
+            "id": "pension-dialog"
+        }
+    },
+    "chart" : {
+        "ranges" : [
+            1000,
+            750,
+            500,
+            250
+        ],
+        "wywn" : 0,
+        "wymh" : 0,
+        "dc" : 0,
+        "ss" : 0,
+        "pens" : 0,
+        "ss_On" : false,
+        "pens_On" : false,
+        "mainChartId" : "main-chart"
+    }
+}
