@@ -1,3 +1,6 @@
+// Casie is editing this! This file now belongs to low pressure storm!!!
+
+
 // Quiz result options in a separate object for flexibility
 var resultOptions = [
     {   title: 'You Are This Thing',
@@ -11,7 +14,7 @@ var resultOptions = [
     {   title: 'You Are A Type Of Thing',
         desc: '<p>Here, have an Archer</p><img src="https://i.imgur.com/NH5cunw.png"/>'}
 ];
-    
+
 // global variables
 var quizSteps = $('#quizzie .quiz-step'),
     totalScore = 0;
@@ -70,7 +73,7 @@ function calcResults(totalScore) {
     if (quizSteps.find('.active').length == quizSteps.length){
         var resultsTitle = $('#results h1'),
             resultsDesc = $('#results .desc');
-        
+
         // calc lowest possible score
         var lowestScoreArray = $('#quizzie .low-value').map(function() {
             return $(this).attr('data-quizIndex');
