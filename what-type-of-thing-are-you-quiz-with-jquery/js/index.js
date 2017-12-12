@@ -1,7 +1,8 @@
-// Last Changes by: Casie
+// Last Changes by: Alyson
 // Team: Low Pressure Storm
 // Threat Level: Midnight
 
+//this is a test of commit
 
 // Quiz result options in a separate object for flexibility
 var resultOptions = [
