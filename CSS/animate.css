@@ -1,0 +1,149 @@
+* {
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	color: #800000;
+}
+
+button  {
+	text-align: justify;
+	/* width: 80px;
+	height: 80 px; */
+	overflow: hidden;
+	white-space: normal;
+	word-wrap: break-word;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+		max-width: 100%;
+    max-height: 100%;
+}
+
+.prompt {
+	display: block;
+	font-size: 20px;
+}
+
+.btn {
+	margin: 0 20px 0 20px;
+	white-space: normal;
+	word-wrap: break-word;
+}
+
+.btn-cheapest {
+	color: #000000;
+	background-color: #C0C0C0;
+	font-weight: bold;
+	transition: background-color .6s linear;
+	-webkit-transition: background-color .6s linear;
+	-moz-transition: background-color .6s linear;
+}
+
+.btn-cheapest.active,
+.btn-cheapest:active,
+.btn-cheapest:focus,
+.btn-cheapest:active:focus,
+.btn-cheapest.active:focus,
+.btn-cheapest:hover {
+	background-color: #b97373;
+		color: #FFFFFF;
+
+}
+
+.btn-cheap {
+	color: #000000;
+		background-color: #C0C0C0;
+	font-weight: bold;
+	transition: background-color .6s linear;
+	-webkit-transition: background-color .6s linear;
+	-moz-transition: background-color .6s linear;
+
+}
+
+.btn-cheap.active,
+.btn-cheap:active,
+.btn-cheap:focus,
+.btn-cheap:active:focus,
+.btn-cheap.active:focus,
+.btn-cheap:hover {
+	background-color: #b97373;
+		color: #FFFFFF;
+}
+
+.btn-costly {
+	color: #000000;
+		background-color: #C0C0C0;
+	font-weight: bold;
+	transition: background-color .6s linear;
+	-webkit-transition: background-color .6s linear;
+	-moz-transition: background-color .6s linear;
+
+}
+
+.btn-costly.active,
+.btn-costly:active,
+.btn-costly:focus,
+.btn-costly:active:focus,
+.btn-costly.active:focus,
+.btn-costly:hover {
+	background-color: #b97373;
+		color: #FFFFFF;
+}
+
+.btn-most-costly {
+	color: #000000;
+		background-color: #C0C0C0;
+	font-weight: bold;
+	transition: background-color .6s linear;
+	-webkit-transition: background-color .6s linear;
+	-moz-transition: background-color .6s linear;
+
+}
+
+.btn-most-costly.active,
+.btn-most-costly:active,
+.btn-most-costly:focus,
+.btn-most-costly:active:focus,
+.btn-most-costly.active:focus,
+.btn-most-costly:hover {
+	background-color: #b97373;
+		color: #FFFFFF;
+}
+
+.btn-average {
+	color: #000000;
+	background-color: #C0C0C0;
+	font-weight: bold;
+	transition: background-color .6s linear;
+	-webkit-transition: background-color .6s linear;
+	-moz-transition: background-color .6s linear;
+}
+
+.btn-average.active,
+.btn-average:active,
+.btn-average:focus,
+.btn-average:active:focus,
+.btn-average.active:focus,
+.btn-average:hover {
+	background-color: #b97373;
+	color: #FFFFFF;
+}
+
+.bottom {
+	margin-bottom: 100px;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+/* RESULTS */
+.results {
+	margin-bottom: 40px;
+	margin-top: 40px;
+}
